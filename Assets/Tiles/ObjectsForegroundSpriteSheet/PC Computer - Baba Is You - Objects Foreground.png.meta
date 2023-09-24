@@ -1,0 +1,1279 @@
+fileFormatVersion: 2
+guid: 46057c0d3726c1e25be047a40903f4c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933be66eae37a4e8ca5a80c91d07fd39
+      internalID: 30169330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeebb0063813bdd9a5e9440984487c6
+      internalID: -1807337206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b2b63b3b7ec56fcb4377db7d375831
+      internalID: -1172198088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -2}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb6e59fb2a6e28e6837afce58eb9d4d
+      internalID: -765317972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfa3deda19f73549b0da6a77a46e536
+      internalID: 797502853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272a0b0275075bad0ae9476f5d7af966
+      internalID: -800798640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a2571777b9b0d37b8872ba30f49e37
+      internalID: 557424097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addb71baceb56aacfb2115d518fd9f46
+      internalID: -1774311804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a746127c3b079a8bb2308f5d5bef25f
+      internalID: -405269237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51d4c53132f837078f017957b27e83d
+      internalID: 648798123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b703d0c8eccab00f84f461de5f3fd17
+      internalID: -1365884624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: -2}
+        - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: 2, y: 2}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31019692a54426ff5b310590e88fdf18
+      internalID: -1320481342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a298570eae148dd0f9238948a439fcae
+      internalID: 1760551297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb6fb6acc9b7a96da07cec29f3ef2ab
+      internalID: -1012329308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f7297e0d3dfa3b096bb8cf312be793
+      internalID: -1202990064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9116d43e27d90869d65012f8da72de
+      internalID: -1232780178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e966dc8ae031ca3c0bfbfc9c35834591
+      internalID: -1407677013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1745e6ad15819f971ae1b7dcd3135557
+      internalID: -1284534396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -2}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e203ddd5e9abc6dbd07297d770725a
+      internalID: -692526533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1caa39f11d8ac140ba21c00af9d04d9
+      internalID: -1192317470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04d631b9356184a3b94a1da32ade063
+      internalID: -1509733366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566cf9132c5c89e93b656b1e4675921a
+      internalID: 1668703680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac10a4e641f64a63db4a4f5601d4d8e8
+      internalID: -322516201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5947f0bf9c4e35a985cf2561b1ee218
+      internalID: 163973265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755d99b8f0a249cd99dbe87c0ffeb513
+      internalID: 1189282009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_26
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7bd24793f249907ab364bb0576c855
+      internalID: -398897193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0470c41e34244ed87c35e60bb93d85
+      internalID: 218220747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_28
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: -2}
+        - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: 2, y: 2}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa27ae23d93c08d0b0e1982900fb5ce
+      internalID: -1560818445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_29
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d5ebbf86125c240add6f5efe2ae16d
+      internalID: 2115469062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_30
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478d24fd59c67e4b4bebda7e4f17784c
+      internalID: 2026785153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_31
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8609fcd0086d3c282b4851805dc52e7f
+      internalID: 1805927175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19edfd68c1f643a1cba42aeb94da34b5
+      internalID: -35046668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebd013271c15ea9d925eb6362891d07
+      internalID: 835508542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_34
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132bbb5d5390c0763b394e3a1cf380f5
+      internalID: -30010722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_35
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -2}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242a275a5ac8605fa6b297db6d6a79c
+      internalID: -794917971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313077fcdba3b59d7bec83b9e09f3318
+      internalID: 233005567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_37
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad1b26fa0f55a6ff9e71bbae691455b
+      internalID: -1779833993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974dc3b1b158db7c5be58d7e904b252f
+      internalID: 1073831806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629203f0680ee84249d348101d331166
+      internalID: -881128963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f56e8e6681f3bb88ef37b9c89d3147
+      internalID: 256885214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: 2}
+        - {x: 12, y: 2}
+        - {x: 12, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17f6dea986396de2921ae9ea196fd30
+      internalID: 1522881952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_42
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36818aa11c8b1debb8752170ac97d7ff
+      internalID: -1274651637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d0c45ae9eb866979d03530e5794f71
+      internalID: -1732630715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_44
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -12}
+        - {x: -2, y: -2}
+        - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: 2, y: 2}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde8712d9464851008ecefa9664f3092
+      internalID: 1476453792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_45
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6cc074d6aa5a487baf748ed9381ded
+      internalID: 98049588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_46
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c3acff447159653a9c4d18f2f7b43d
+      internalID: -1265129890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_47
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3efcd7234fe1383aea2a4afdf089c2
+      internalID: -1609089454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Baba Is You - Objects Foreground_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -12, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 12}
+        - {x: 2, y: 12}
+        - {x: 2, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790c0a792a0f6059385eaf58fa72a9ca
+      internalID: 698356043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Baba Is You - Objects Foreground_0: 30169330
+      PC Computer - Baba Is You - Objects Foreground_1: -1807337206
+      PC Computer - Baba Is You - Objects Foreground_10: 648798123
+      PC Computer - Baba Is You - Objects Foreground_11: -1365884624
+      PC Computer - Baba Is You - Objects Foreground_12: -1320481342
+      PC Computer - Baba Is You - Objects Foreground_13: 1760551297
+      PC Computer - Baba Is You - Objects Foreground_14: -1012329308
+      PC Computer - Baba Is You - Objects Foreground_15: -1202990064
+      PC Computer - Baba Is You - Objects Foreground_16: -1232780178
+      PC Computer - Baba Is You - Objects Foreground_17: -1407677013
+      PC Computer - Baba Is You - Objects Foreground_18: -1284534396
+      PC Computer - Baba Is You - Objects Foreground_19: -692526533
+      PC Computer - Baba Is You - Objects Foreground_2: -1172198088
+      PC Computer - Baba Is You - Objects Foreground_20: -1192317470
+      PC Computer - Baba Is You - Objects Foreground_21: -1509733366
+      PC Computer - Baba Is You - Objects Foreground_22: 1668703680
+      PC Computer - Baba Is You - Objects Foreground_23: -322516201
+      PC Computer - Baba Is You - Objects Foreground_24: 163973265
+      PC Computer - Baba Is You - Objects Foreground_25: 1189282009
+      PC Computer - Baba Is You - Objects Foreground_26: -398897193
+      PC Computer - Baba Is You - Objects Foreground_27: 218220747
+      PC Computer - Baba Is You - Objects Foreground_28: -1560818445
+      PC Computer - Baba Is You - Objects Foreground_29: 2115469062
+      PC Computer - Baba Is You - Objects Foreground_3: -765317972
+      PC Computer - Baba Is You - Objects Foreground_30: 2026785153
+      PC Computer - Baba Is You - Objects Foreground_31: 1805927175
+      PC Computer - Baba Is You - Objects Foreground_32: -35046668
+      PC Computer - Baba Is You - Objects Foreground_33: 835508542
+      PC Computer - Baba Is You - Objects Foreground_34: -30010722
+      PC Computer - Baba Is You - Objects Foreground_35: -794917971
+      PC Computer - Baba Is You - Objects Foreground_36: 233005567
+      PC Computer - Baba Is You - Objects Foreground_37: -1779833993
+      PC Computer - Baba Is You - Objects Foreground_38: 1073831806
+      PC Computer - Baba Is You - Objects Foreground_39: -881128963
+      PC Computer - Baba Is You - Objects Foreground_4: 797502853
+      PC Computer - Baba Is You - Objects Foreground_40: 256885214
+      PC Computer - Baba Is You - Objects Foreground_41: 1522881952
+      PC Computer - Baba Is You - Objects Foreground_42: -1274651637
+      PC Computer - Baba Is You - Objects Foreground_43: -1732630715
+      PC Computer - Baba Is You - Objects Foreground_44: 1476453792
+      PC Computer - Baba Is You - Objects Foreground_45: 98049588
+      PC Computer - Baba Is You - Objects Foreground_46: -1265129890
+      PC Computer - Baba Is You - Objects Foreground_47: -1609089454
+      PC Computer - Baba Is You - Objects Foreground_5: -800798640
+      PC Computer - Baba Is You - Objects Foreground_6: 698356043
+      PC Computer - Baba Is You - Objects Foreground_7: 557424097
+      PC Computer - Baba Is You - Objects Foreground_8: -1774311804
+      PC Computer - Baba Is You - Objects Foreground_9: -405269237
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
