@@ -44,7 +44,8 @@ public class CharacterMovement : MonoBehaviour
 
         if (directionX != 0)
         {
-            transform.localScale = new Vector3(directionX > 0 ? 1 : -1, 1, 1);
+            //transform.localScale = new Vector3(directionX > 0 ? 1 : -1, 1, 1);
+            transform.rotation = Quaternion.Euler(0, directionX > 0 ? 0 : 180, 0);
             pressingKey = true;
         }
         else
