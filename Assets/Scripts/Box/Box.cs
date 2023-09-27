@@ -10,13 +10,18 @@ public class Box : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
     }
-
     // Update is called once per frame
     public void swapPlayer()
     {
+        player.GetComponent<Animator>().SetTrigger("swap");
+        StartCoroutine(swap());
+    }
+
+    public IEnumerator swap()
+    {
+        yield return new WaitForSeconds(0.25f);
         Vector3 playerTransform = player.transform.position;
         player.transform.position = transform.position;
-        Debug.Log("Player position: " + playerTransform);
         transform.position = playerTransform;
     }
 }
