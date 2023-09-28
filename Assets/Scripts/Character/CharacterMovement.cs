@@ -66,10 +66,10 @@ public class CharacterMovement : MonoBehaviour
 
         velocity = body.velocity;
 
-        run();
+        Run();
     }
 
-    private void run()
+    private void Run()
     {
 
         velocity.x = desiredVelocity.x;

@@ -26,7 +26,7 @@ public class CharacterGround : MonoBehaviour
 
     private void Update()
     {
-        onGround = Physics2D.Raycast(transform.position + colliderOffset, Vector2.down, groundLength, groundLayer) || Physics2D.Raycast(transform.position - colliderOffset, Vector2.down, groundLength, groundLayer) || Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, offset, groundLayer);
+        onGround = Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, offset, groundLayer);
     }
     public bool GetOnGround() { return onGround; }
 }

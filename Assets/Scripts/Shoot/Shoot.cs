@@ -8,25 +8,27 @@ public class Shoot : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator anim;
+    private CircleCollider2D circleCollider;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
         anim = GetComponent<Animator>();
+        circleCollider = GetComponent<CircleCollider2D>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        rb.velocity = Vector3.zero;
-
         if (other.TryGetComponent<Box>(out Box box))
         {
             box.swapPlayer();
             DestroyShoot();
         }
-        else
+        else if (other.gameObject.tag != "Player")
         {
+            circleCollider.enabled = false;
+            rb.velocity = Vector3.zero;
             anim.SetTrigger("explode");
         }
     }

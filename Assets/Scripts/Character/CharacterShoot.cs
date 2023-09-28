@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CharacterShoot : MonoBehaviour
 {
 
     [SerializeField] private GameObject shootPrefab;
     [SerializeField] private Transform shootPoint;
-    // Start is called before the first frame updat
-    // Update is called once per frame
 
-    void Update()
+    public void onShoot(InputAction.CallbackContext context)
     {
-        if (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.Z))
-        {
+        if (context.performed)
             Instantiate(shootPrefab, shootPoint.position, shootPoint.rotation);
-        }
     }
 }
