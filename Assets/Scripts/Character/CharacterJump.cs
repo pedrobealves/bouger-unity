@@ -30,7 +30,6 @@ public class CharacterJump : MonoBehaviour
     private bool desiredJump;
     private float jumpBufferCounter;
     private float coyoteTimeCounter = 0;
-    private bool pressingJump;
     public bool onGround;
     private bool currentlyJumping;
     private Animator anim;
@@ -49,13 +48,7 @@ public class CharacterJump : MonoBehaviour
         if (context.started)
         {
             desiredJump = true;
-            pressingJump = true;
             anim.SetBool("isJumping", true);
-        }
-
-        if (context.canceled)
-        {
-            pressingJump = false;
         }
     }
 

@@ -5,13 +5,8 @@ using UnityEngine;
 public class CharacterGround : MonoBehaviour
 {
     private bool onGround;
-
-    [SerializeField]
-    private float groundLength = 0.95f;
-
     [SerializeField]
     private Vector3 colliderOffset;
-
     [SerializeField]
     private LayerMask groundLayer;
 

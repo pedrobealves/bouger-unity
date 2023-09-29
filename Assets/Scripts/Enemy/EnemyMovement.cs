@@ -5,10 +5,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public float speed = 5f;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] public Transform groundCheck;
+    [SerializeField] public Transform wallCheck;
     private bool isFacingRight = true;
-    public Transform groundCheck;
-    public Transform wallCheck;
     public bool groundDetected;
     public bool wallDetected;
     // Update is called once per frame

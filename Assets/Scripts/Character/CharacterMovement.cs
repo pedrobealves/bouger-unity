@@ -31,6 +31,7 @@ public class CharacterMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         ground = GetComponent<CharacterGround>();
         anim = GetComponent<Animator>();
+
     }
 
     public void OnMovement(InputAction.CallbackContext context)
