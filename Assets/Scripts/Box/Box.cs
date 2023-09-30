@@ -6,12 +6,27 @@ public class Box : MonoBehaviour
 {
     private GameObject player;
     private Animator anim;
+    public Vector3 initialPosition;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         anim = GetComponent<Animator>();
     }
+
+    void Awake()
+    {
+        initialPosition = transform.position;
+    }
+
+    void Update()
+    {
+        if (player.GetComponent<CharacterStatus>().isDead)
+        {
+            transform.position = initialPosition;
+        }
+    }
+
     // Update is called once per frame
     public void swapPlayer()
     {

@@ -13,7 +13,6 @@ public class Door : MonoBehaviour
         {
             if (collision.transform.position.x < transform.position.x)
             {
-                Debug.Log(nextRoom.position);
                 cameraFollow.SetNewPosition(nextRoom.position);
             }
             else

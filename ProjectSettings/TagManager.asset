@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - Shoot
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - UI
   - Foreground
   - Box
-  - 
+  - Enemy
   - 
   - 
   - 

@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
 
         groundDetected = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, LayerMask.GetMask("Foreground"));
 
-        wallDetected = Physics2D.Raycast(wallCheck.position, transform.right, 0.5f, LayerMask.GetMask("Box") | LayerMask.GetMask("Foreground"));
+        wallDetected = Physics2D.Raycast(wallCheck.position, transform.right, 0.5f, LayerMask.GetMask("Box") | LayerMask.GetMask("Foreground") | LayerMask.GetMask("Enemy"));
 
         Debug.DrawRay(groundCheck.position, Vector2.down * 1f, Color.red);
         Debug.DrawRay(wallCheck.position, transform.right * 0.5f, Color.green);

@@ -14,7 +14,7 @@ public class EnemyStatus : MonoBehaviour
         get { return life; }
         set
         {
-            if (life < 0)
+            if (life <= 0)
             {
                 Destroy(this.gameObject);
             }
