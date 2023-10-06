@@ -22,7 +22,7 @@ public class CharacterShoot : MonoBehaviour
             if (characterStatus.Bullets > 0)
             {
                 Instantiate(shootPrefab, shootPoint.position, shootPoint.rotation);
-                characterStatus.Bullets = -1;
+                characterStatus.Bullets -= 1;
             }
 
         }

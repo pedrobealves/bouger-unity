@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5ee08a4d0ed043756bc4b82e7295024a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Babaisyou
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1c54ebcb540be49a08299d13b7b7ccb6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

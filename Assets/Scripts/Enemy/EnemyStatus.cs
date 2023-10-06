@@ -16,6 +16,7 @@ public class EnemyStatus : MonoBehaviour
         {
             if (life <= 0)
             {
+                GameObject.FindWithTag("Player").GetComponent<CharacterStatus>().AddBullets(1);
                 Destroy(this.gameObject);
             }
             life = value;

@@ -8,7 +8,8 @@ public class Spike : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<CharacterStatus>().TakeDamage(5);
+            CharacterStatus characterStatus = collision.GetComponent<CharacterStatus>();
+            characterStatus.TakeDamage(characterStatus.maxLife);
         }
     }
 }

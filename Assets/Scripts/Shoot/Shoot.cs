@@ -10,6 +10,7 @@ public class Shoot : MonoBehaviour
     private Animator anim;
     private CircleCollider2D circleCollider;
     // Start is called before the first frame update
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

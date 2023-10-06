@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,12 +7,17 @@ public class CharacterStatus : MonoBehaviour
 {
     private Transform currentCheckpoint;
     private Animator animator;
+    [SerializeField] public int maxBullet;
+    [SerializeField] public int maxLife;
+
     [SerializeField] Transform initialCheckpoint;
     [SerializeField] private Behaviour[] components;
     public bool isDead;
 
-    [SerializeField]
-    private int life = 1;
+    public event Action UpdateBullets;
+    public event Action AddMaxBullet;
+
+    public int life;
 
     public int Life
     {
@@ -19,7 +25,7 @@ public class CharacterStatus : MonoBehaviour
         set
         {
             if (isDead) return;
-            if (life < 0)
+            if (life <= 0)
             {
                 isDead = true;
                 SwitchAllComponents(false);
@@ -30,18 +36,22 @@ public class CharacterStatus : MonoBehaviour
         }
     }
 
-    [SerializeField]
-    private int bullets = 5;
+
+    public int bullets;
+
     public int Bullets
     {
         get { return bullets; }
         set
         {
-            bullets += value;
+            bullets = value;
+            UpdateBullets();
         }
     }
     private void Awake()
     {
+        bullets = maxBullet;
+        life = maxLife;
         currentCheckpoint = initialCheckpoint;
         animator = GetComponent<Animator>();
     }
@@ -57,12 +67,19 @@ public class CharacterStatus : MonoBehaviour
         this.Life -= damage;
     }
 
+    public void AddBullets(int bullets)
+    {
+        this.Bullets += bullets;
+        if (this.Bullets > maxBullet)
+            this.Bullets = maxBullet;
+    }
+
     public void Respawn()
     {
         animator.ResetTrigger("die");
         animator.Play("Player_idle");
 
-        life = 1;
+        life = maxLife;
 
         isDead = false;
 
