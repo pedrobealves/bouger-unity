@@ -17,7 +17,8 @@ public class CharacterJump : MonoBehaviour
     [SerializeField] public float upwardMovementMultiplier = 1f;
     [SerializeField] public float downwardMovementMultiplier = 6.17f;
     [SerializeField] public int maxAirJumps = 0;
-
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip jumpLandSound;
     [SerializeField] public float speedLimit;
     [SerializeField] public float jumpBuffer = 0.15f;
 
@@ -139,9 +140,10 @@ public class CharacterJump : MonoBehaviour
         {
             if (onGround)
             {
+                if (currentlyJumping)
+                    SoundManager.instance.PlaySound(jumpLandSound);
                 currentlyJumping = false;
                 anim.SetBool("isJumping", false);
-
             }
 
             gravMultiplier = defaultGravityScale;
@@ -156,6 +158,7 @@ public class CharacterJump : MonoBehaviour
 
         if (onGround || (coyoteTimeCounter > 0.03f && coyoteTimeCounter < coyoteTime) || canJumpAgain)
         {
+            SoundManager.instance.PlaySound(jumpSound);
             desiredJump = false;
             jumpBufferCounter = 0;
             coyoteTimeCounter = 0;
@@ -182,7 +185,6 @@ public class CharacterJump : MonoBehaviour
 
         if (jumpBuffer == 0)
         {
-
             desiredJump = false;
         }
     }

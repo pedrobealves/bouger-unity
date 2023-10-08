@@ -184,3 +184,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  shootExplode: {fileID: 8300000, guid: a58c87dade1b5058cbaef27cf5af7228, type: 3}

@@ -193,3 +193,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73cd6ea90c66d054c811414c9b4ff9d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPosition: {x: 0, y: 0, z: 0}
+  swapSound: {fileID: 8300000, guid: e8a68ece630ec58138cc1044ba693585, type: 3}

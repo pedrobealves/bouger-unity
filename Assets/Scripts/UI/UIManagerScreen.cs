@@ -7,6 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     [Header("Pause")]
     [SerializeField] private GameObject pauseScreen;
+    [SerializeField] private AudioClip pauseSound;
 
     private void Awake()
     {
@@ -30,9 +31,17 @@ public class NewBehaviourScript : MonoBehaviour
         //When pause status is true change timescale to 0 (time stops)
         //when it's false change it back to 1 (time goes by normally)
         if (status)
+        {
             Time.timeScale = 0;
+            SoundManager.instance.musicSource.Pause();
+            SoundManager.instance.pauseMusicSource.Play();
+        }
         else
+        {
             Time.timeScale = 1;
+            SoundManager.instance.musicSource.UnPause();
+            SoundManager.instance.pauseMusicSource.Stop();
+        }
     }
 
     //Quit game/exit play mode if in Editor
@@ -50,6 +59,8 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SoundManager.instance.pauseMusicSource.Stop();
+        SoundManager.instance.musicSource.UnPause();
     }
 
     #endregion

@@ -9,13 +9,11 @@ public class CharacterStatus : MonoBehaviour
     private Animator animator;
     [SerializeField] public int maxBullet;
     [SerializeField] public int maxLife;
-
+    [SerializeField] private AudioClip checkpointSound;
+    [SerializeField] private AudioClip deathSound;
     [SerializeField] Transform initialCheckpoint;
     [SerializeField] private Behaviour[] components;
     public bool isDead;
-
-    public event Action UpdateBullets;
-    public event Action AddMaxBullet;
 
     public int life;
 
@@ -28,8 +26,10 @@ public class CharacterStatus : MonoBehaviour
             if (life <= 0)
             {
                 isDead = true;
+                GameEvents.instance.PlayerDeath();
                 SwitchAllComponents(false);
                 animator.SetTrigger("die");
+                SoundManager.instance.PlaySound(deathSound);
                 return;
             }
             life = value;
@@ -45,7 +45,7 @@ public class CharacterStatus : MonoBehaviour
         set
         {
             bullets = value;
-            UpdateBullets();
+            GameEvents.instance.UpdateBullets();
         }
     }
     private void Awake()
@@ -97,6 +97,7 @@ public class CharacterStatus : MonoBehaviour
             currentCheckpoint = collision.transform;
             collision.GetComponent<Collider2D>().enabled = false;
             collision.GetComponent<Animator>().SetTrigger("activate");
+            SoundManager.instance.PlaySound(checkpointSound);
         }
     }
 }

@@ -15,8 +15,8 @@ public class UIBulletBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        characterStatus.UpdateBullets += UpdateBullets;
-        characterStatus.AddMaxBullet += AddBullet;
+        GameEvents.instance.OnUpdateBullets += UpdateBullets;
+        GameEvents.instance.OnAddMaxBullet += AddBullet;
 
         for (int i = 0; i < characterStatus.maxBullet; i++)
         {

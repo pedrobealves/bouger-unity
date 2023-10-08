@@ -7,29 +7,25 @@ public class Box : MonoBehaviour
     private GameObject player;
     private Animator anim;
     public Vector3 initialPosition;
+    [SerializeField] private AudioClip swapSound;
     // Start is called before the first frame update
-    void Start()
-    {
-        player = GameObject.FindWithTag("Player");
-        anim = GetComponent<Animator>();
-    }
-
     void Awake()
     {
+        anim = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
         initialPosition = transform.position;
+        GameEvents.instance.OnPlayerDeath += Respawn;
     }
 
-    void Update()
+    void Respawn()
     {
-        if (player.GetComponent<CharacterStatus>().isDead)
-        {
-            transform.position = initialPosition;
-        }
+        transform.position = initialPosition;
     }
 
     // Update is called once per frame
     public void swapPlayer()
     {
+        SoundManager.instance.PlaySound(swapSound);
         player.GetComponent<Animator>().SetTrigger("swap");
         anim.SetTrigger("swap");
     }

@@ -9,9 +9,10 @@ public class Shoot : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private CircleCollider2D circleCollider;
+    [SerializeField] private AudioClip shootExplode;
     // Start is called before the first frame update
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
@@ -28,6 +29,7 @@ public class Shoot : MonoBehaviour
         }
         else if (other.gameObject.tag != "Player")
         {
+            SoundManager.instance.PlaySound(shootExplode);
             circleCollider.enabled = false;
             rb.velocity = Vector3.zero;
             anim.SetTrigger("explode");

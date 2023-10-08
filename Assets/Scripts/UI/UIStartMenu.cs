@@ -9,10 +9,14 @@ public class UIStartMenu : MonoBehaviour
     [SerializeField] private RectTransform[] buttons;
     [SerializeField] private AudioClip changeSound;
     [SerializeField] private AudioClip interactSound;
+
+    public AudioSource soundSource { get; private set; }
+
     private int currentPosition;
 
     private void Awake()
     {
+        soundSource = GetComponent<AudioSource>();
         ChangePosition(0);
     }
     private void Update()
@@ -30,6 +34,9 @@ public class UIStartMenu : MonoBehaviour
     {
         currentPosition += _change;
 
+        if (_change != 0)
+            soundSource.PlayOneShot(changeSound);
+
         if (currentPosition < 0)
             currentPosition = buttons.Length - 1;
         else if (currentPosition > buttons.Length - 1)
@@ -43,6 +50,10 @@ public class UIStartMenu : MonoBehaviour
     }
     private void Interact()
     {
+
+        soundSource.PlayOneShot(interactSound);
+
+
         if (currentPosition == 0)
         {
             //Start game
