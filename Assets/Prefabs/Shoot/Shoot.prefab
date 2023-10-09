@@ -183,5 +183,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 584ad59b261ebf7808e619168e51da80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
   shootExplode: {fileID: 8300000, guid: a58c87dade1b5058cbaef27cf5af7228, type: 3}

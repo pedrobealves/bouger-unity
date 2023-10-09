@@ -20,4 +20,8 @@ public class GameEvents : MonoBehaviour
     public event Action OnAddMaxBullet;
 
     public void AddMaxBullet() => OnAddMaxBullet?.Invoke();
+
+    public event Action<int> OnButtonActive;
+
+    public void ButtonActive(int id) => OnButtonActive?.Invoke(id);
 }
