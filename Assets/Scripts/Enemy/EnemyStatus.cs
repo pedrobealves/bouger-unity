@@ -9,6 +9,10 @@ public class EnemyStatus : MonoBehaviour
 
     [SerializeField]
     private int life = 2;
+
+    [SerializeField]
+    private int addedBullets;
+
     public int Life
     {
         get { return life; }
@@ -16,7 +20,7 @@ public class EnemyStatus : MonoBehaviour
         {
             if (life <= 0)
             {
-                GameObject.FindWithTag("Player").GetComponent<CharacterStatus>().AddBullets(1);
+                GameObject.FindWithTag("Player").GetComponent<CharacterStatus>().AddBullets(addedBullets);
                 Destroy(this.gameObject);
             }
             life = value;

@@ -9,7 +9,7 @@ public class Box : MonoBehaviour
     public Vector3 initialPosition;
     [SerializeField] private AudioClip swapSound;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
